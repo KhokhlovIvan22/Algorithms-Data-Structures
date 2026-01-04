@@ -23,7 +23,7 @@ public class Main {
         PrintWriter out = new PrintWriter("output.txt");
         for (int i=0; i<n; ++i) {
             for (int j = 0; j < n; ++j)
-                out.print(adjcency[i][j] + " ");
+                out.print(adjacency[i][j] + " ");
             out.print("\n");
         }
         out.close();
